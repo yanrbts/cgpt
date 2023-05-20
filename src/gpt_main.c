@@ -7,9 +7,9 @@ static const char usage[]
     = "\n"
 	  " /----------------------------------------------------------------------------\\\n"
 	  " |                                                                            |\n"
-	  " |  cgpt  -- Cgpt Open SYnthesis Suite                                        |\n"
+	  " |  cgpt  -- Cgpt C language version of ChatGPT                               |\n"
 	  " |                                                                            |\n"
-	  " |  Copyright (C) 2023 - 2023  Yan Rui Bing <yanruibing@gmail.com>            |\n"
+	  " |  Copyright (C) 2023 - 2023  Yan Rui Bing <yanruibinghxu@gmail.com>         |\n"
 	  " |                                                                            |\n"
 	  " |  Permission to use, copy, modify, and/or distribute this software for any  |\n"
 	  " |  purpose with or without fee is hereby granted, provided that the above    |\n"
@@ -25,11 +25,11 @@ static const char usage[]
 	  " |                                                                            |\n"
       " |                                                       version : 1.0.1      |\n"
 	  " \\----------------------------------------------------------------------------/\n"
-	  "\n\n";
+	  "\n";
 
 static const char helpusage[]
 	= "\n"
-	  "  cgpt - (C) 2023-2023 By hxuyrb\n"
+	  "  cgpt - (C) 2023-2023 By yanrbts\n"
 	  "\n"
 	  "  usage: cgpt [options]\n"
 	  "\n"
