@@ -1,2 +1,2 @@
 # cgpt
-cgpt is chatgpt by c language 
+cgpt is the C language version of ChatGPT, currently under development.
