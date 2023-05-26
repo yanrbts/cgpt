@@ -37,6 +37,8 @@ typedef struct error        gpt_error_t;
 typedef struct clog         gpt_clog_t;
 typedef struct jfile        gpt_jfile_t;
 
+typedef int                 gpt_int;
+
 #include <gpt_json.h>
 #include <gpt_log.h>
 #include <gpt_main.h>
