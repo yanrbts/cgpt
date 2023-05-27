@@ -6,10 +6,18 @@
 #ifndef __GPT_MODULE__
 #define __GPT_MODULE__
 
+#include <gpt_config.h>
+
 struct gpt_module_s {
-    char *name;
-    char *url;
-    char *description;
+    const char *name;
+    const char *url;
+    const char *description;
+    char *    (*rqfunc)(char **request, int n);
+    void      (*rpfunc)(FILE *fp);
 };
+
+void gpt_module_completion();
+
+extern gpt_module_t *gpt_modules[];
 
 #endif

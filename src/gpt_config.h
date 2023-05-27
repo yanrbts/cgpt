@@ -25,7 +25,7 @@
 #include <getopt.h>
 #include <limits.h>
 #include <gpt_linenoise.h>
-#include <gpt_common.h>
+
 
 typedef struct gptoption    gpt_option_t;
 typedef struct usage        gpt_usage_t;
@@ -36,11 +36,14 @@ typedef struct object       gpt_object_t;
 typedef struct error        gpt_error_t;
 typedef struct clog         gpt_clog_t;
 typedef struct jfile        gpt_jfile_t;
+typedef struct gpt_module_s gpt_module_t;
 
 typedef int                 gpt_int;
 
+#include <gpt_common.h>
 #include <gpt_json.h>
 #include <gpt_log.h>
+#include <gpt_module.h>
 #include <gpt_main.h>
 
 #define gpt_prompt      "cgpt>"

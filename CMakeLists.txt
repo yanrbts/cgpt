@@ -32,6 +32,7 @@ set(gpt_src
     src/gpt_common.c
     src/gpt_json.c
     src/gpt_log.c
+    src/gpt_module.c
     src/gpt_main.c
 )
 
