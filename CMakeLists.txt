@@ -45,3 +45,5 @@ target_include_directories(cgpt
     $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/src>)
 set_target_properties(cgpt PROPERTIES OUTPUT_NAME "cgpt")
 target_link_libraries(cgpt -lm -lpthread)
+
+add_subdirectory(test)

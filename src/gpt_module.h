@@ -10,6 +10,7 @@
 
 struct gpt_module_s {
     const char *name;
+    const char *model;
     const char *url;
     const char *description;
     char *    (*rqfunc)(char **request, int n);

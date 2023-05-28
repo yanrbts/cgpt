@@ -93,6 +93,8 @@ gpt_console_loop() {
             break;
 
         if (line[0] != '\0' && line[0] != '/') {
+            /* Add to the history. */
+            linenoiseHistoryAdd(line);
             char *str = gpt_request_data(&line, 1);
             // build command
             char *cmd = gpt_request_cmd(str);
@@ -117,8 +119,8 @@ gpt_console_loop() {
                     }
                 }
             }
-        } else {
-
+        } else if (line[0] == '/') {
+            printf("Unreconized command: %s\n", line);
         }
         linenoiseFree(line);
     }
